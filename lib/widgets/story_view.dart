@@ -122,7 +122,7 @@ class StoryItem {
         child: Stack(
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.symmetric(vertical: 40),
+              padding: const EdgeInsets.symmetric(vertical: 80),
               child: StoryImage.url(
                 url,
                 controller: controller,
@@ -160,7 +160,6 @@ class StoryItem {
                       padding: const EdgeInsets.only(top: 40),
                       child: Container(
                         width: double.infinity,
-                        color: Colors.black54,
                         child: Padding(
                           padding: const EdgeInsets.only(left: 16),
                           child: Text(
